@@ -1,0 +1,7 @@
+﻿
+<li ng-controller="lsp">
+    <a href="#admin" class="iq-waves-effect" data-toggle="collapse" aria-expanded="false"><span class="ripple rippleEffect"></span><i class="ri-admin-line"></i><span>loại sách</span><i class="ri-arrow-right-s-line iq-arrow-right"></i></a>
+    <ul id="admin" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+        <li ng-repeat="i in get"><a   href="/index/sachbyloai#!?maloaisanpham={{i.maloaisp}}" ><i class="ri-dashboard-line"></i>{{i.tenloai}}</a></li>
+    </ul>
+</li>
